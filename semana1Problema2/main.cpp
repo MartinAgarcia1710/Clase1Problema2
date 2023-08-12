@@ -12,7 +12,7 @@ y viceversa. Luego, mostrar el vector C si es que contiene datos.
 using namespace std;
 
 int main(){
-    const int TAMANIOA = 10;
+    const int TAMANIOA = 30;
     const int TAMANIOB = 10;
     int vectorA[TAMANIOA] = {};
     int vectorB[TAMANIOB] = {};
@@ -23,7 +23,13 @@ int main(){
 
     cargarVectores(vectorA, vectorB, TAMANIOA, TAMANIOB);
 
-    generarVectorC(vectorA, vectorB, vectorC);
+    ponerCeroVectorC(vectorC, TAMANIOA, TAMANIOB);
+
+    generarVectorC(vectorA, vectorB, vectorC, TAMANIOA, TAMANIOB);
+
+    mostrarVectoresAyB(vectorA, vectorB, TAMANIOA, TAMANIOB);
+
+    mostrarVectorC(vectorC, TAMANIOA, TAMANIOB);
 
 
 

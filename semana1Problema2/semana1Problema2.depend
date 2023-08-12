@@ -1,12 +1,18 @@
 # depslib dependency file v1.0
-1691845791 source:d:\ejercicios c++\laboratorio 2\practicas clase 1\problema 2\semana1problema2\main.cpp
+1691871651 source:d:\ejercicios c++\laboratorio 2\practicas clase 1\problema 2\semana1problema2\main.cpp
 	<iostream>
 	"funciones.h"
 	<cstdlib>
 	<ctime>
 
-1691845769 d:\ejercicios c++\laboratorio 2\practicas clase 1\problema 2\semana1problema2\funciones.h
+1691864442 d:\ejercicios c++\laboratorio 2\practicas clase 1\problema 2\semana1problema2\funciones.h
 	<iostream>
+	<cstdlib>
+	<ctime>
+
+1691877630 source:d:\ejercicios c++\laboratorio 2\practicas clase 1\problema 2\semana1problema2\funciones.cpp
+	<iostream>
+	"funciones.h"
 	<cstdlib>
 	<ctime>
 

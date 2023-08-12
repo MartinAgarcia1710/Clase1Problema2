@@ -7,6 +7,8 @@
 using namespace std;
 
 void cargarVectores(int vectorA[], int vectorB[], int tamanioA, int tamanioB);
-void generarVectorC(int vectorA[], int vectorB[], int vectorC[]);
-
+void ponerCeroVectorC(int vectorC[],int tamanioA, int tamanioB);
+void generarVectorC(int vectorA[], int vectorB[], int vectorC[], int tamanioA, int tamanioB);
+void mostrarVectoresAyB(int vectorA[], int vectorB[], int tamanioA, int tamanioB);
+void mostrarVectorC(int vectorC[], int tamanioA, int tamanioB);
 #endif // FUNCIONES_H_INCLUDED
